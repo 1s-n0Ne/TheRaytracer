@@ -1,6 +1,6 @@
 # The Raytracer
 ## Computer Graphics
-### Ricardo Reyes Mercado | 16/12/2020
+### Isabel Reyes Mercado | 16/12/2020
 
 ## Compilación
 
