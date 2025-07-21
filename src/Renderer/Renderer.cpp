@@ -81,7 +81,7 @@ void RenderChunk(png::image<png::rgb_pixel>& finalImage, bool splitDirection, in
 
 					IntersectInfo closestIntersection;
 					int nowClosest = closestObjectIndex(rayIntersectionDistance);
-					closestIntersection = hitInfo[nowClosest];
+					if (nowClosest != -1) closestIntersection = hitInfo[nowClosest];
 					closestIntersection.indexId = nowClosest;
 					//std::cout<<nowClosest;
 

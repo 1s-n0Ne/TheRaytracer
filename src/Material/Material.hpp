@@ -4,6 +4,7 @@
 #include <fstream>
 #include <cmath>
 #include <png++/png.hpp>
+#include <cstdint>
 
 class Color {
 	public:

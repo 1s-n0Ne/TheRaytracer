@@ -147,7 +147,7 @@ Color getPixelPerModel(arma::colvec3 castingDirection, IntersectInfo hit, Scene 
 		IntersectInfo closestReflectionInfo;
 		int indexOfClosestReflection = closestObjectIndex(reflectionIntersecDistance);
 
-		closestReflectionInfo = reflectionHitInfo[indexOfClosestReflection];
+		if (indexOfClosestReflection != -1) closestReflectionInfo = reflectionHitInfo[indexOfClosestReflection];
 		closestReflectionInfo.indexId = indexOfClosestReflection;
 
 		if (closestReflectionInfo.indexId != -1)

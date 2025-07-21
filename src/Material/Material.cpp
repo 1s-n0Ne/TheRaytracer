@@ -1,6 +1,7 @@
 #include "Material.hpp"
 
 #include <png++/image.hpp>
+#include <cstdint>
 // ------------------------- Color class definitions -------------------------
 Color::Color() : r(1.0), g(1.0), b(1.0) {}
 Color::Color(double _r, double _g, double _b) : r(_r), g(_g), b(_b) {}
